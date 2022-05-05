@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        .container{
+            display:grid;
+            
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 6fr;
+            grid-template-rows: (7,auto);
+            width:950px;
+            height:2840px;
+            margin: auto;
+            gap:32px;
+            grid-template-areas:
+        "bnr1 bnr1 bnr1 bnr1 bnr1 bnr1 bnr1 bnr1 bnr2 bnr2 bnr2 bnr2"
+        "bnr3 bnr3 bnr3 bnr3 bnr3 bnr3 bnr3 bnr3 bnr3 bnr3 bnr3 bnr3"
+        ". . bnr4 bnr4 bnr4 bnr4 bnr4 bnr4 bnr4 bnr4 . ."
+        "bnr5 bnr5 bnr5 bnr5 bnr5 . bnr7 bnr7 bnr7 bnr7 bnr7 bnr7"
+        "bnr6 bnr6 bnr6 bnr6 bnr6 . bnr7 bnr7 bnr7 bnr7 bnr7 bnr7"
+        "sldr sldr sldr sldr sldr sldr sldr sldr sldr sldr sldr sldr"
+        "bnr8 bnr8 bnr8 bnr8 bnr8 bnr8 bnr8 bnr8 bnr8 bnr8 bnr8 bnr8" ;
+}
+
+
+
+
+
+      
+        .container>div:nth-child(1)
+        {
+            margin-top: 20px;
+            border: 3 px solid green;
+            grid-area: bnr1;
+            
+            
+        }
+        .container>div:nth-child(2)
+        {
+            
+            
+            grid-area: bnr2;
+            
+            
+        }
+        .container>div:nth-child(3)
+        {
+            
+            
+            grid-area: bnr4;
+            
+        }
+        .container>div:nth-child(4)
+        {
+            
+            
+            grid-area: bnr3;
+        }
+        .container>div:nth-child(5)
+        {
+        
+            
+            grid-area: bnr5;
+        }
+        .container>div:nth-child(6)
+        {
+            
+            
+            grid-area: bnr6;
+        }
+        .container>div:nth-child(7)
+        {
+            
+        
+            grid-area: bnr7;
+        }
+        .container>div:nth-child(8)
+        {
+            
+        
+            grid-area: sldr;
+        }
+        .container>div:nth-child(9)
+        {
+            
+            
+            grid-area: bnr8;
+        }
+        .container>div>img{
+            
+    
+            max-width: 100%;
+        max-height: 100%;
+        display: block;
+
+
+
+
+        }
+        h1{
+            
+            text-align: center;
+
+
+
+
+        }
+        .head{
+            height:30px;
+            width:100%;
+            border:1px solid red;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            justify-items: auto;
+            
+
+
+
+        }
+        button{
+            background-color:black;
+            color: beige;
+
+
+
+        }
+
+
+
+
+
+
+
+    </style>
+        
+
+
+
+
+
+    
+</head>
+<body>
+    <div class="head">
+        <button>DESIGN</button>
+        <button>ART</button>
+        <button>COLLABRATIONS</button>
+
+    </div>
+    <div class="container">
+        <div>
+<img src="https://www.yoox.com/images/yoox80/banners/6769_2_Living_TOP1.jpg?634485886601286852#width=897&height=615" >
+
+        </div>
+        <div>
+            <img src="https://www.yoox.com/images/yoox80/banners/6769_1_MinimalDesignArt_TOP2.jpg?634485886601286852#width=431&height=450" >
+
+        </div>
+        <div>
+            <img src="https://www.yoox.com/images/yoox80/banners/6769_1_Humantouch_Middle.jpg?634485886601286852#width=897&height=615" >
+
+        </div>
+        <div>
+            <h1>Three Traits Of Being Creative?
+                Curiosity,vision and ambition
+            </h1>
+            <img src="" >
+
+        </div>
+        <div>
+            <img src="https://www.yoox.com/images/yoox80/banners/6769_1_DentroUnVaso_Compo1.jpg?634485886601286852#width=542&height=542" >
+
+        </div>
+        <div>
+            <img src="https://www.yoox.com/images/yoox80/banners/6769_2_PickedByNina_Compo2.gif?634485886601286852#width=542&height=542" >
+
+        </div>
+        <div>
+            <img src="https://www.yoox.com/images/yoox80/banners/6769_1_HaveASeat_Compo3.jpg?634485886601286852#width=780&height=999" >
+
+        </div>
+        <div>
+            <img src="" >
+
+        </div>
+        <div>
+            <img src="https://www.yoox.com/images/yoox80/banners/6769_1_DesignArt_BOTTOM.jpg?634485886601286852#width=1348&height=320" >
+
+        </div>
+        
+        
+
+
+
+
+
+
+
+    </div>
+    
+
+
+
+    
+</body>
+</html>
